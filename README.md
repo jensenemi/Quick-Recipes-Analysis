@@ -40,7 +40,9 @@ First, I merged our two datasets together and created a column containing the av
 3. Find the average rating per recipe, as a Series.
 4. Add this Series containing the average rating per recipe back to the recipes dataset however you’d like (e.g., by merging). Use the resulting dataset for all of your analysis. 
 
+Our resulting dataset has 83782 rows and 13 columns since we added a new columns called 'avg_ratings'.
 
+Now, if we take a look at our nutrition column, we notice that it looks like each row contains a list. However, it turns out that those are just strings that look like lists. I decided to create columns for each of the values in the list. Now, we have columns for calories, total fat, sugar, sodium, protein, saturated fat, and carbohydrates. 
 
 
 
