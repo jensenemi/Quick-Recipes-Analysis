@@ -50,6 +50,14 @@ Since our question focuses on the types of recipes, I decided to choose five dif
 
 Our resulting dataframe has 83782 rows and 25 columns since we added boolean values for each of the types of recipes we're analyzing. Here is the cleaned dataframe:
 
+| name                               | minutes | n_steps | n_ingredients | calories (#) | carbohydrates (PDV) | dessert | breakfast | vegan | dietary | holiday-event |
+|------------------------------------|---------|---------|----------------|---------------|----------------------|---------|-----------|-------|---------|----------------|
+| 1 brownies in the world best ever  | 40      | 10      | 9              | 138.4         | 6.0                  | True    | False     | False | False   | False          |
+| 1 in canada chocolate chip cookies | 45      | 12      | 11             | 595.1         | 26.0                 | False   | False     | False | False   | False          |
+| 412 broccoli casserole             | 40      | 6       | 9              | 194.8         | 3.0                  | False   | False     | False | False   | False          |
+| millionaire pound cake             | 120     | 7       | 7              | 878.3         | 39.0                 | True    | False     | False | True    | True           |
+| 2000 meatloaf                      | 90      | 17      | 13             | 267.0         | 2.0                  | False   | False     | False | False   | False          |
+
 
 
 
