@@ -6,7 +6,7 @@ For my project, I decided to do an analysis on the recipes and ratings dataset. 
 
 Our first dataset, recipes, has 83782 rows and 12 columns. Each row represents one recipe. Here is a description of the columns:
 | Column             | Description                                                                                                                                                                                       |
-| :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `'name'`           | Recipe name                                                                                                                                                                                       |
 | `'id'`             | Recipe ID                                                                                                                                                                                         |
 | `'minutes'`        | Minutes to prepare recipe                                                                                                                                                                         |
@@ -17,7 +17,7 @@ Our first dataset, recipes, has 83782 rows and 12 columns. Each row represents o
 | `'n_steps'`        | Number of steps in recipe                                                                                                                                                                         |
 | `'steps'`          | Text for recipe steps, in order                                                                                                                                                                   |
 | `'description'`    | User-provided description                                                                                                                                                                         |
-| `'ingredients'`    | Ingredients in recipe                                                                                                                                                                       |
+| `'ingredients'`    | Ingredients in recipe                                                                                                                                                                              |
 | `'n_ingredients'`  | Number of ingredients in recipe                                                                                                                                                                   |
 
 Our second dataset, ratings, has 731927 rows and 5 columns. Again, each row represents one rating. Here is a description of the columns:
@@ -28,11 +28,3 @@ Our second dataset, ratings, has 731927 rows and 5 columns. Again, each row repr
 | 'date'         | Date of interaction |
 | 'rating'       | Rating given |
 | 'review'       | Review text |
-
-| Column             | Description                                                                                                                                                                                       |
-| :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `'user_id'`           | User ID                                                                                                                                                                                       |
-| `'recipe_id'`             | Recipe ID                                                                                                                                                                                         |
-| `'date'`        | Date of interaction                                                                                                                                                                        |
-| `'rating'` | Rating given                                                                                                                                                                 |
-| `'review'`      | Review text                                                                                                                                                                        |
