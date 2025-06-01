@@ -30,3 +30,21 @@ Our second dataset, ratings, has 731927 rows and 5 columns. Again, each row repr
 | 'date'         | Date of interaction |
 | 'rating'       | Rating given |
 | 'review'       | Review text |
+
+## Data Cleaning and Exploratory Data Analysis
+### Data Cleaning
+First, I merged our two datasets together and created a column containing the average rating per recipe. Here are the steps:
+1. Left merge the recipes and interactions datasets together.
+2. In the merged dataset, fill all ratings of 0 with np.nan.
+   Justification: Since our rating scale is from 1 to 5, a rating of 0 indicates that there is a missing value there. We need to fill any 0s with np.nan to make sure missing values have no effect on the average rating. A value of 0 would greatly bring down the rating.
+3. Find the average rating per recipe, as a Series.
+4. Add this Series containing the average rating per recipe back to the recipes dataset however you’d like (e.g., by merging). Use the resulting dataset for all of your analysis. 
+
+
+
+
+
+
+
+
+
