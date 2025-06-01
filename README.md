@@ -111,6 +111,8 @@ For this section, I chose to analyze the 'rating' column and perform permutation
 
 The p-value is 0.109 which is greater than our significance level, so we fail to reject the null hypothesis which means the missingness of 'rating' does not depend on 'minutes'.
 
+Now, we'll compare 'rating' and 'n_steps'. Our null hypothesis is that the missingness of ratings does not depend on the number of steps. Our alternate hypothesis is that the missingness of ratings does depend on the number of steps. The test statistic is the absolute difference in means and the significance level is 0.05. After performing the permutation tests, I created another histogram to display the results. 
+
 
 
 
