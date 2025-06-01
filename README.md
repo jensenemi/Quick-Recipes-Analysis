@@ -68,5 +68,4 @@ For the univariate analysis, I created a bar plot of the number of recipes per t
   frameborder="0"
 ></iframe>
 
-
-
+As we can see, there are almost 50,000 recipes with the tag dietary, less than 15,000 dessert recipes, less than 10,000 holiday-event recipes, about 5,000 breakfast recipes and less than 5,000 recipes with the tag vegan.
