@@ -44,6 +44,12 @@ Our resulting dataset has 83782 rows and 13 columns since we added a new columns
 
 Now, if we take a look at our nutrition column, we notice that it looks like each row contains a list. However, it turns out that those are just strings that look like lists. I decided to create columns for each of the values in the list. Now, we have columns for calories, total fat, sugar, sodium, protein, saturated fat, and carbohydrates. 
 
+Our resulting dataset has 83782 rows and 20 columns since we split up the values in nutrition to be their own column.
+
+Since our question focuses on the types of recipes, I decided to choose five different categories of recipes to compare the cooking time. My five categories are: dessert, breakfast, vegan, dietary, and holiday-event. Each category is its own column. I went through the tags of the recipes and returned True if the tags contained the name of the category and False otherwise.
+
+Our resulting dataframe has 83782 rows and 25 columns since we added boolean values for each of the types of recipes we're analyzing. Here is the cleaned dataframe:
+
 
 
 
