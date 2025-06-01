@@ -61,7 +61,12 @@ Our resulting dataframe has 83782 rows and 25 columns since we added boolean val
 ### Univariate Analysis
 For the univariate analysis, I created a bar plot of the number of recipes per type. 
 
-
+<iframe
+  src="assets/univariate.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 
 
