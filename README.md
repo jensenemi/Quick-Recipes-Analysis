@@ -21,6 +21,14 @@ Our first dataset, recipes, has 83782 rows and 12 columns. Each row represents o
 | `'n_ingredients'`  | Number of ingredients in recipe                                                                                                                                                                   |
 
 Our second dataset, ratings, has 731927 rows and 5 columns. Again, each row represents one rating. Here is a description of the columns:
+| Column         | Description |
+|----------------|-------------|
+| 'user_id'      | User ID     |
+| 'recipe_id'    | Recipe ID   |
+| 'date'         | Date of interaction |
+| 'rating'       | Rating given |
+| 'review'       | Review text |
+
 | Column             | Description                                                                                                                                                                                       |
 | :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `'user_id'`           | User ID                                                                                                                                                                                       |
