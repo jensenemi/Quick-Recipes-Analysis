@@ -72,3 +72,12 @@ As we can see, there are almost 50,000 recipes with the tag dietary, less than 1
 
 ### Bivariate Analysis
 For the bivariate analysis, I created another bar plot of average number of minutes it takes for each recipe type.
+
+<iframe
+  src="assets/bivariate.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
+We can see that by far, breakfast takes the least amount of time out of the five categories. The other four recipe types are close in average time.
