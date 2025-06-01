@@ -113,8 +113,14 @@ The p-value is 0.109 which is greater than our significance level, so we fail to
 
 Now, we'll compare 'rating' and 'n_steps'. Our null hypothesis is that the missingness of ratings does not depend on the number of steps. Our alternate hypothesis is that the missingness of ratings does depend on the number of steps. The test statistic is the absolute difference in means and the significance level is 0.05. After performing the permutation tests, I created another histogram to display the results. 
 
+<iframe
+  src="assets/missing2.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
-
+The p-value is 0.0 which is less than our significance level, so we reject the null hypothesis which means the missingness of 'rating' depends on the number of steps. 
 
 
 
