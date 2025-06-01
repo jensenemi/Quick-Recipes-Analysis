@@ -122,7 +122,8 @@ Now, we'll compare 'rating' and 'n_steps'. Our null hypothesis is that the missi
 
 The p-value is 0.0 which is less than our significance level, so we reject the null hypothesis which means the missingness of 'rating' depends on the number of steps. 
 
-
+## Hypothesis Testing
+The project is focused on finding whih types of recipes take the shortest amount of time to make. Now, I'll perform a permutation test to answer this question. The null hypothesis is breakfast takes the same amount of time to make as the other types of recipes. The alternate hypothesis is breakfast takes less time to make than the other types of recipes. The test statistic is the difference in mean between minutes of breakfast recipes and non-breakfast recipes. The significance level is 0.05.
 
 
 
