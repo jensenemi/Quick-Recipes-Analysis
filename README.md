@@ -95,6 +95,22 @@ I created a pivot table to show the relationship between the recipe types and ca
 
 The pivot table shows that vegan recipes tend to be lower in calories compared to other recipes. 
 
+## Assessment of Missingness
+### NMAR Analysis
+In our merged dataset, 'description', 'rating', and 'review' contain the most missing values. Out of these columns, I think the 'review' column is NMAR. Similar to an example from class, people that feel strongely about the recipe, good or bad, are more likely to leave a review. This results in more missing values for reviews since not everyone will feel strongly about the recipe and want to leave a review. 
+
+### Missingness Dependency
+For this section, I chose to analyze the 'rating' column and perform permutation tests to see the dependency of missingness of this column on other columns. First, we'll compare the 'rating' and 'minutes' columns. Our null hypothesis is that the missingness of ratings does not depend on the number of minutes. Our alternate hypothesis is that the missingness of ratings does depend on the number of minutes. The test statistic is the absolute difference in means and the significance level is 0.05. After performing the permutation tests, I created a histogram to display the results. 
+
+
+
+
+
+
+
+
+
+
 
 
 
