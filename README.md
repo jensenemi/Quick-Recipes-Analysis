@@ -86,7 +86,7 @@ We can see that by far, breakfast takes the least amount of time out of the five
 I created a pivot table to show the relationship between the recipe types and calories. I calculated the maximum, mean, median, and minimum of calories for each of the recipe types.
 
 | category      | breakfast | dessert  | dietary  | holiday-event | vegan  |
-| calorie_stats |
+| calorie_stats |                                                          |
 |---------------|-----------|----------|----------|----------------|--------|
 | max_cal       | 22371.20  | 28930.20 | 36188.80 | 26604.40       | 6485.60 |
 | mean_cal      |   374.21  |   512.36 |   408.56 |   473.45       |  275.50 |
