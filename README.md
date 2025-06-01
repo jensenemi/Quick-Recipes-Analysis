@@ -114,6 +114,3 @@ I created a pivot table to show the relationship between the recipe types and ca
 
 
 
-
-
-
