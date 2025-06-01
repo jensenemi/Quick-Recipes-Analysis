@@ -69,3 +69,6 @@ For the univariate analysis, I created a bar plot of the number of recipes per t
 ></iframe>
 
 As we can see, there are almost 50,000 recipes with the tag dietary, less than 15,000 dessert recipes, less than 10,000 holiday-event recipes, about 5,000 breakfast recipes and less than 5,000 recipes with the tag vegan.
+
+### Bivariate Analysis
+For the bivariate analysis, I created another bar plot of average number of minutes it takes for each recipe type.
