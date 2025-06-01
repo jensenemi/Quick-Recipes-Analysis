@@ -3,6 +3,7 @@ By Jensen Emi
 
 ## Introduction
 For my project, I decided to do an analysis on the recipes and ratings dataset. Cooking is an important skill to learn as an adult. It's something that many people love to do while others may not enjoy as much. However, I think we can all agree that food is not only a huge part of our lives, but it can also make people happy. As someone who is busy with school and work, sometimes I just want to make a quick and easy meal. That's why I chose to focus on the types of recipes that take the shortest amount of time to make. I have two datasets to analyze, recipes and ratings, and hopefully my question will be answered.
+
 Our first dataset, recipes, has 83782 rows and 12 columns. Each row represents one recipe. Here is a description of the columns:
 | Column             | Description                                                                                                                                                                                       |
 | :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -18,3 +19,12 @@ Our first dataset, recipes, has 83782 rows and 12 columns. Each row represents o
 | `'description'`    | User-provided description                                                                                                                                                                         |
 | `'ingredients'`    | Ingredients in recipe                                                                                                                                                                       |
 | `'n_ingredients'`  | Number of ingredients in recipe                                                                                                                                                                   |
+
+Our second dataset, ratings, has 731927 rows and 5 columns. Again, each row represents one rating. Here is a description of the columns:
+| Column             | Description                                                                                                                                                                                       |
+| :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `'user_id'`           | User ID                                                                                                                                                                                       |
+| `'recipe_id'`             | Recipe ID                                                                                                                                                                                         |
+| `'date'`        | Date of interaction                                                                                                                                                                        |
+| `'rating'` | Rating given                                                                                                                                                                 |
+| `'review'`      | Review text                                                                                                                                                                        |
