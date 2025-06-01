@@ -48,7 +48,7 @@ Our resulting dataset has 83782 rows and 20 columns since we split up the values
 
 Since our question focuses on the types of recipes, I decided to choose five different categories of recipes to compare the cooking time. My five categories are: dessert, breakfast, vegan, dietary, and holiday-event. Each category is its own column. I went through the tags of the recipes and returned True if the tags contained the name of the category and False otherwise.
 
-Our resulting dataframe has 83782 rows and 25 columns since we added boolean values for each of the types of recipes we're analyzing. Here is the cleaned dataframe:
+Our resulting dataframe has 83782 rows and 25 columns since we added boolean values for each of the types of recipes we're analyzing. I removed some of the columns that are unrelated to the question we're trying to answer. Here is the cleaned dataframe:
 
 | name                               | minutes | n_steps | n_ingredients | calories (#) | carbohydrates (PDV) | dessert | breakfast | vegan | dietary | holiday-event |
 |------------------------------------|---------|---------|----------------|---------------|----------------------|---------|-----------|-------|---------|----------------|
