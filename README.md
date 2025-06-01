@@ -85,24 +85,13 @@ We can see that by far, breakfast takes the least amount of time out of the five
 ### Interesting Aggregates
 I created a pivot table to show the relationship between the recipe types and calories. I calculated the maximum, mean, median, and minimum of calories for each of the recipe types.
 
-| category      | breakfast | dessert  | dietary  | holiday-event | vegan  |
-| calorie_stats |                                                          |
-|---------------|-----------|----------|----------|----------------|--------|
-| max_cal       | 22371.20  | 28930.20 | 36188.80 | 26604.40       | 6485.60 |
-| mean_cal      |   374.21  |   512.36 |   408.56 |   473.45       |  275.50 |
-| median_cal    |   285.50  |   287.15 |   292.60 |   292.60       |  196.70 |
-| min_cal       |     0.90  |     0.30 |     0.00 |     0.00       |    0.00 |
-
-
-
-
-| calorie_stats \ category | breakfast | dessert  | dietary  | holiday-event | vegan   |
-|--------------------------|-----------|----------|----------|----------------|---------|
-| max_cal                  | 22371.20  | 28930.20 | 36188.80 | 26604.40       | 6485.60 |
-| mean_cal                 |   374.21  |   512.36 |   408.56 |   473.45       |  275.50 |
-| median_cal               |   285.50  |   287.15 |   292.60 |   292.60       |  196.70 |
-| min_cal                  |     0.90  |     0.30 |     0.00 |     0.00       |    0.00 |
-
+| category       | breakfast | dessert  | dietary  | holiday-event | vegan   |
+|----------------|-----------|----------|----------|----------------|---------|
+| calorie_stats  |           |          |          |                |         |
+| max_cal        | 22371.20  | 28930.20 | 36188.80 | 26604.40       | 6485.60 |
+| mean_cal       |   374.21  |   512.36 |   408.56 |   473.45       |  275.50 |
+| median_cal     |   285.50  |   287.15 |   292.60 |   292.60       |  196.70 |
+| min_cal        |     0.90  |     0.30 |     0.00 |     0.00       |    0.00 |
 
 
 
