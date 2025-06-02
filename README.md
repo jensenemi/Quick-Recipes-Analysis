@@ -136,11 +136,14 @@ The p-value is 0.076 which is greater than 0.05, so we fail to reject the null h
 
 ## Framing a Prediction Problem
 ### Problem Identification
-My prediction problem is to predict the number of minutes it takes to prepare recipes before cooking starts. This is a regression problem because we're dealing with minutes which is a continuous variable. The response variable is number of minutes to prepare the recipe. I chose minutes as my response variable because it is the best representation of how long something takes to cook. It's helpful in letting people know how long they should plan on cooking for. For my metric, I chose to use mean squared error because it is able to show how close or far our prediction is from the actual time. It'll give me a better idea of the accuracy of the predictions than other metrics. 
+My prediction problem is to predict the number of minutes it takes to prepare recipes before cooking starts. This is a regression problem because we're dealing with minutes which is a continuous variable. The response variable is number of minutes to prepare the recipe. I chose minutes as my response variable because it is the best representation of how long something takes to cook. It's helpful in letting people know how long they should plan on cooking for. For my metric, I chose to use root mean squared error because it is able to show how close or far our prediction is from the actual time. It'll give me a better idea of the accuracy of the predictions than other metrics. 
 
 At the time of prediction, we would know all of the information listed in the recipe. Depending on the person and their cooking skill level, we wouldn't know how long the recipe will take to make, but we'll know the number of ingredients, nutritional information, etc.
 
+## Baseline Model
+My baseline model uses 'n_ingredients' and 'carbohydrates (PDV)' for the features. All of these features are quantitative with 'carbohydrates (PDV)' being continuous and 'n_ingredients' being discrete. Initially, there were too any outliers so I had to create a new dataframe only containing recipes that took 110 or less minutes to make. I split the data into training and test sets and then created a pipeline with a random forest regressor. After fitting the model and making predictions, I calculated the root mean squared error of my prediction and actual time. The root mean squared error of my baseline model is 22.144 minutes which means my predictions are off. I believe my model could be better. 22 minutes is a lot of time, especially when the recipes included in my model take 110 minutes or less to cook.
 
+## Final Model
 
 
 
