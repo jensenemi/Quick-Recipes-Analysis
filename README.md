@@ -123,7 +123,7 @@ Now, we'll compare 'rating' and 'n_steps'. Our null hypothesis is that the missi
 The p-value is 0.0 which is less than our significance level, so we reject the null hypothesis which means the missingness of 'rating' depends on the number of steps. 
 
 ## Hypothesis Testing
-The project is focused on finding whih types of recipes take the shortest amount of time to make. Now, I'll perform a permutation test to answer this question. The null hypothesis is breakfast takes the same amount of time to make as the other types of recipes. The alternate hypothesis is breakfast takes less time to make than the other types of recipes. The test statistic is the difference in mean between minutes of breakfast recipes and non-breakfast recipes. The significance level is 0.05.
+The project is focused on finding whih types of recipes take the shortest amount of time to make. Now, I'll perform a permutation test to answer this question. I chose to do a permutation test over a hypothesis test because as we saw earlier, the number of each recipe type varies in size. The null hypothesis is breakfast takes the same amount of time to make as the other types of recipes. The alternate hypothesis is breakfast takes less time to make than the other types of recipes. The test statistic is the difference in mean between minutes of breakfast recipes and non-breakfast recipes. I chose my test statistic to just be the difference and not the absolute difference since my alternate hypothesis is that breakfast takes less time to make and not that breakfast takes a different amount of time to make than the other recipe types. The significance level is 0.05 which is a common significance level to use. 
 
 <iframe
   src="assets/hyptest.html"
@@ -133,6 +133,28 @@ The project is focused on finding whih types of recipes take the shortest amount
 ></iframe>
 
 The p-value is 0.076 which is greater than 0.05, so we fail to reject the null hypothesis that breakfast recipes take the same amount of time as other recipes. 
+
+## Framing a Prediction Problem
+### Problem Identification
+My prediction problem is to predict the number of minutes it takes to prepare recipes before cooking starts. This is a regression problem because we're dealing with minutes which is a continuous variable. The response variable is number of minutes to prepare the recipe. I chose minutes as my response variable because it is the best representation of how long something takes to cook. It's helpful in letting people know how long they should plan on cooking for. For my metric, I chose to use mean squared error because it is able to show how close or far our prediction is from the actual time. It'll give me a better idea of the accuracy of the predictions than other metrics. 
+
+At the time of prediction, we would know all of the information listed in the recipe. Depending on the person and their cooking skill level, we wouldn't know how long the recipe will take to make, but we'll know the number of ingredients, nutritional information, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
