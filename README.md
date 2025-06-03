@@ -144,7 +144,7 @@ At the time of prediction, we would know all of the information listed in the re
 My baseline model uses 'n_ingredients' and 'carbohydrates (PDV)' for the features. All of these features are quantitative with 'carbohydrates (PDV)' being continuous and 'n_ingredients' being discrete. Initially, there were too any outliers so I had to create a new dataframe only containing recipes that took 110 or less minutes to make. I split the data into training and test sets and then created a pipeline with a random forest regressor. After fitting the model and making predictions, I calculated the root mean squared error of my prediction and actual time. The root mean squared error of my baseline model is 22.144 minutes which means my predictions are off. I believe my model could be better. 22 minutes is a lot of time, especially when the recipes included in my model take 110 minutes or less to cook.
 
 ## Final Model
-
+My final model uses 'n_ingredients', 'carbohydrates (PDV)', 'n_steps', and 'calories (#)' for the features. I added 'n_steps' because I thought it could be helpful in predicting how long a recipe will take to make. If there are more steps, then it possibly takes longer. I also added 'calories (#)' because I thought there may be some relation between minutes and how many calories are in a recipe. Something quick and easy to make might have less calories in it. Both of these features reflect the complexity of a recipe and how long it takes to make. 
 
 
 
