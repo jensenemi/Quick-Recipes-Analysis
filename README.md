@@ -146,7 +146,9 @@ My baseline model uses 'n_ingredients' and 'carbohydrates (PDV)' for the feature
 ## Final Model
 My final model uses 'n_ingredients', 'carbohydrates (PDV)', 'n_steps', and 'calories (#)' for the features. I added 'n_steps' because I thought it could be helpful in predicting how long a recipe will take to make. If there are more steps, then it possibly takes longer. I also added 'calories (#)' because I thought there may be some relation between minutes and how many calories are in a recipe. Something quick and easy to make might have less calories in it. Both of these features reflect the complexity of a recipe and how long it takes to make. 
 
-I used the RandomForestRegressor as my modeling algorithm. To improve my baseline model, I also used GridSearchCV to make my final model more accurate. For the hyperparameters, I chose n_estimators and max_depth since they performed the best. 
+I used the RandomForestRegressor as my modeling algorithm. To improve my baseline model, I also used GridSearchCV to make my final model more accurate. For the hyperparameters, I chose n_estimators and max_depth since they performed the best. When n_estimators was 526 and max_depth was 7, it performed the best. I chose my hyperparameters by trial and error and just seeing what combination had the best result. 
+
+My metric, root mean squared error, for my final model is 20.55 minutes which is about 2 minutes less than my baseline model prediction. Since my final model is a little more accurate than my baseline model, I would say overall it was an improvement. 
 
 
 
