@@ -150,12 +150,14 @@ I used the RandomForestRegressor as my modeling algorithm. To improve my baselin
 
 My metric, root mean squared error, for my final model is 20.55 minutes which is about 2 minutes less than my baseline model prediction. Since my final model is a little more accurate than my baseline model, I would say overall it was an improvement. 
 
+## Fairness Analysis
+For the fairness analysis, group X consisted of vegan recipes and group Y consisted of non-vegan recipes. I used RMSE as my evaluation metric since I built a regression model. Also, I chose RMSE over R^2 because RMSE makes it easier to see how far off the predictions are from the actual values.
 
+Null Hypothesis: Our model is fair. Its prediction error for vegan recipes and non-vegan recipes are roughly the same, and any differences are due to random chance. 
 
+Alternative Hypothesis: Our model is unfair. Its prediction error for vegan recipes is higher than its prediction error for non-vegan recipes.
 
-
-
-
+For my test statistic, I calculated the RMSE of vegan and non-vegan recipes and subtracted them, vegan RMSE minus non-vegan RMSE. I set the significance level at 0.05. My resulting p-value is 0.276, so we fail to reject the null hypothesis. There is not enough evidence to say the model's error for vegan recipes is higher than its error for non-vegan recipes. 
 
 
 
